@@ -1,0 +1,26 @@
+{
+    "name": "jaybizzle/rapid-migrations",
+    "description": "Rapidly build an in memory database from your current schema without having to run migrations each time",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Beech",
+            "email": "mbeech@mark-beech.co.uk"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Jaybizzle\\RapidMigrations\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaybizzle\\RapidMigrations\\RapidMigrationsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
